@@ -4,23 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51c3434-6111-4a8f-8003-5c39db083fcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppleMacBookPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
+    <list default="true" id="f51c3434-6111-4a8f-8003-5c39db083fcb" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FacebookPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuestCheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Loaprop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NewReleasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NikeProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderFinalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Paymentcheckoutpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/feature/Category.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/feature/register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Stepsdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppleMacBookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppleMacBookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +64,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TestSuit.Usershouldbeabletologin">
-    <configuration name="TestSuit.UserShouldBeAbleToSeeOnlyRegisteredCustomersCanUseEmailAFriendFeature" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.RunCuke">
+    <configuration name="RunCuke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +84,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="UserShouldBeAbleToSeeOnlyRegisteredCustomersCanUseEmailAFriendFeature" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RunCuke" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.Accept" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExtensionHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="Accept" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.UserShouldBeAbleToSeeOnlyRegisteredUsersCanVoteMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.UseShouldBeAbleToSelectAndVerifyCurrencySelecterAccordingly" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +117,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="UserShouldBeAbleToSeeOnlyRegisteredUsersCanVoteMessage" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="UseShouldBeAbleToSelectAndVerifyCurrencySelecterAccordingly" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.Usershouldbeabletologin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.Usershouldbeabletoregister" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +135,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="Usershouldbeabletologin" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="Usershouldbeabletoregister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.Usershouldbeabletosearchforthegivenproductsuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExtensionHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="Usershouldbeabletosearchforthegivenproductsuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,9 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.Usershouldbeabletologin" />
-        <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToSeeOnlyRegisteredUsersCanVoteMessage" />
-        <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToSeeOnlyRegisteredCustomersCanUseEmailAFriendFeature" />
+        <item itemvalue="JUnit.RunCuke" />
+        <item itemvalue="TestNG.TestSuite.Usershouldbeabletoregister" />
+        <item itemvalue="TestNG.TestSuite.Usershouldbeabletosearchforthegivenproductsuccessfully" />
+        <item itemvalue="TestNG.TestSuite.Accept" />
+        <item itemvalue="TestNG.TestSuite.UseShouldBeAbleToSelectAndVerifyCurrencySelecterAccordingly" />
       </list>
     </recent_temporary>
   </component>
@@ -131,25 +181,65 @@
       <option name="presentableId" value="Default" />
       <updated>1682889338351</updated>
     </task>
+    <task id="LOCAL-00001" summary="everything">
+      <created>1683298416297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683298416298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="everything" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuit.java</url>
-          <line>15</line>
-          <properties class="org.example.TestSuit" method="Usershouldbeabletologin">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuite.java</url>
+          <line>29</line>
+          <properties class="org.example.TestSuite">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuite.java</url>
+          <line>47</line>
+          <properties class="org.example.TestSuite">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuite.java</url>
+          <line>85</line>
+          <properties class="org.example.TestSuite">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Stepsdefs.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

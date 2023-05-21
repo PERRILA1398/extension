@@ -3,7 +3,6 @@ package org.example;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-import javax.swing.text.GapContent;
 
 public class  EmailAFriendPage extends Utils
 
