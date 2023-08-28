@@ -8,7 +8,7 @@ Feature: Category
     And I should verify th page title as "<page_title>"
 
     Examples:
-     |button_name |page_url|page_title|
+     |button_name |page_url| page_title |
 
     | Computers | https://demo.nopcommerce.com/computers | Computers |
     |Electronics |https://demo.nopcommerce.com/electronics|Electronics|

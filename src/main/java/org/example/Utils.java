@@ -2,6 +2,8 @@ package org.example;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;;
 
 import java.io.File;
@@ -61,8 +63,7 @@ public class Utils extends BasePage {
     public static String currentTimeStamp()
     {
         Date date = new Date();
-        SimpleDateFormat sdf = new
-                SimpleDateFormat("ddMMyyhhmmss");
+        SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyhhmmss");
         return sdf.format(date);
     }
 
@@ -94,5 +95,6 @@ public class Utils extends BasePage {
             e.printStackTrace();
         }
     }
+
 
 }

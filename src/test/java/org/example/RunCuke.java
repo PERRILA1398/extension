@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 
     @RunWith(Cucumber.class)
-    @CucumberOptions(features = ".",tags = "@category", plugin = {"pretty", "html:target/cucumber-html-report.html"})
+    @CucumberOptions(features = ".",tags = "@register", plugin = {"pretty", "html:target/cucumber-html-report.html"})
     public class RunCuke
     {
 

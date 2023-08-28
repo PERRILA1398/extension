@@ -15,12 +15,12 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverManager extends Utils {
     public LoadProp loadProp = new LoadProp();
-    public String browsername = loadProp.getProperty("browsername");
+    public String browsername = System.getProperty("browsername");
     MutableCapabilities sauceOptions = new MutableCapabilities();
     public String USERNAME = loadProp.getProperty("SauceUsername");
     public String ACCESS_KEY = loadProp.getProperty("SauceAccesskey");
     public String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.eu-central-1.saucelabs.com/wd/hub";
-    public boolean SAUCE_LAB = true;
+    public boolean SAUCE_LAB = Boolean.parseBoolean(System.getProperty("sauce"));
 
 
     @BeforeMethod
@@ -52,10 +52,12 @@ public class DriverManager extends Utils {
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
-
-            } else if (browsername.equalsIgnoreCase("Chrome")) {
+            }
+        } else if (browsername.equalsIgnoreCase("Chrome"))
+            {
                 driver = new ChromeDriver();
-            } else if (browsername.equalsIgnoreCase("Firefox")) {
+            } else if (browsername.equalsIgnoreCase("Firefox"))
+            {
                 driver = new FirefoxDriver();
             } else if (browsername.equalsIgnoreCase("Edge")) {
                 driver = new EdgeDriver();
@@ -69,7 +71,7 @@ public class DriverManager extends Utils {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
-        }
+
     }
 
 

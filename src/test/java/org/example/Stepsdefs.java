@@ -21,12 +21,15 @@ public class Stepsdefs extends Utils
 
 
     }
-    @When("User types in their details")
-    public void user_types_in_their_details() {
+    @When("User clicks on register button types in their details")
+    public void user_clicks_on_register_button_types_in_their_details() {
         registerPage.UserShouldBeAbleToRegisterSuccessfully();
-
-
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
     }
+
+
+
     @Then("User should be able to register successfully")
     public void user_should_be_able_to_register_successfully() {
         registrationMessage.UserShouldBeAbleToSeeRegistrationMessage();
@@ -61,6 +64,37 @@ public class Stepsdefs extends Utils
     {
        Assert.assertEquals( Gettext(By.tagName("h1")), page_title);
 
+    }
+
+
+    @Given("I am on homepage")
+    public void iAmOnHomepage() {
+    }
+
+    @When("I hover to {string} category")
+    public void iHoverToCategory(String category)
+    {homePage.hoverovercategorybutton(category);}
+
+    @Then("I should be able to verify the colour change")
+    public void iShouldBeAbleToVerifyTheColourChange() {
+    }
+
+    @And("I should be able to click on SubCategory {string}")
+    public void iShouldBeAbleToClickOnSubCategory(String subcategory) {
+        homePage.hoverovercategorybutton(subcategory);
+        homePage.verifyurl();
+    }
+
+    @Given(": User is on HomePage")
+    public void userIsOnHomePage() {
+    }
+
+    @When(": User clicks on register button types in their details")
+    public void userClicksOnRegisterButtonTypesInTheirDetails() {
+    }
+
+    @Then(":  User should be able to register successfully")
+    public void userShouldBeAbleToRegisterSuccessfully() {
     }
 }
 

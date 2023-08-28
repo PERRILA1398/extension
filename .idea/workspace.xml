@@ -4,34 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51c3434-6111-4a8f-8003-5c39db083fcb" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FacebookPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GuestCheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Loaprop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NewReleasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NikeProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderConfirmationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderFinalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Paymentcheckoutpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShoppingCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/feature/Category.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/feature/register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Stepsdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuite.java" afterDir="false" />
+    <list default="true" id="f51c3434-6111-4a8f-8003-5c39db083fcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/feature/HoverCategory.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppleMacBookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppleMacBookPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NewReleasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NewReleasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/feature/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/Category.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/feature/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestConfig/TestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConfig/TestData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Stepsdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Stepsdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,18 +50,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.RunCuke">
-    <configuration name="RunCuke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.RunCuke (1)">
+    <configuration name="Scenario: User should be able to hover and go to Computers and verify colour" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/feature/HoverCategory.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ExtensionHomework" />
+      <option name="NAME_FILTER" value="^User should be able to hover and go to Computers and verify colour$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be able to hover and go to Computers and verify colour$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should be able to hover and go to Computers and verify colour" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCuke (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.Accept" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RunCuke" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -99,16 +104,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="Accept" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="org.example.RunCuke" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.UseShouldBeAbleToSelectAndVerifyCurrencySelecterAccordingly" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RunCuke" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +121,10 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="UseShouldBeAbleToSelectAndVerifyCurrencySelecterAccordingly" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="org.example.RunCuke" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=&quot;@register&quot; -Dbrowsername=Chrome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.Usershouldbeabletosearchforthegivenproductsuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="mAP.mapofnumbers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExtensionHomework" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +156,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="Usershouldbeabletosearchforthegivenproductsuccessfully" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mAP" />
+      <option name="METHOD_NAME" value="mapofnumbers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,13 +165,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: User should be able to hover and go to Computers and verify colour" />
+      <item itemvalue="JUnit.RunCuke (1)" />
+      <item itemvalue="JUnit.RunCuke" />
+      <item itemvalue="TestNG.mAP.mapofnumbers" />
+      <item itemvalue="TestNG.TestSuite.Usershouldbeabletoregister" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCuke (1)" />
+        <item itemvalue="TestNG.mAP.mapofnumbers" />
         <item itemvalue="JUnit.RunCuke" />
+        <item itemvalue="Cucumber Java.Scenario: User should be able to hover and go to Computers and verify colour" />
         <item itemvalue="TestNG.TestSuite.Usershouldbeabletoregister" />
-        <item itemvalue="TestNG.TestSuite.Usershouldbeabletosearchforthegivenproductsuccessfully" />
-        <item itemvalue="TestNG.TestSuite.Accept" />
-        <item itemvalue="TestNG.TestSuite.UseShouldBeAbleToSelectAndVerifyCurrencySelecterAccordingly" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683298416298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1684656749108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684656749109</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,7 +249,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/Stepsdefs.java</url>
-          <line>36</line>
+          <line>39</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -241,5 +258,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ExtensionHomework$mAP_mapofnumbers.ic" NAME="mAP.mapofnumbers Coverage Results" MODIFIED="1690654019112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

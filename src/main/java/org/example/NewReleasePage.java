@@ -24,5 +24,6 @@ public class NewReleasePage extends Utils
             System.out.println(e.getText());
         }
 
+
     }
 }
